@@ -8,11 +8,9 @@ const canvas = document.getElementById('pixelCanvas')
 const height = document.getElementById('inputheight').value;
 // select width input
 const width = document.getElementById('inputwidth').value;
-// when size is submitted by user, 
-
 // When size is submitted by the user, call makeGrid()
 
-function makeGrid() {
+function makeGrid() {grid.addEventListener('click', function(pd) {pd.preventDefault();                                                      
 
 // Your code goes here!
 
